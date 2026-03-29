@@ -1,61 +1,23 @@
-M Classification with Cross Validation (MATLAB)
 
-📌 Overview
+# SVM Classification Project
 
-This project implements a Support Vector Machine (SVM) classifier using MATLAB.
-The model uses an RBF kernel and is evaluated using 10-fold cross-validation.
+This repository contains SVM classification examples using both *MATLAB* and *Python*.
 
----
+## MATLAB Version
+- File: svm_classification.m
+- Features:
+  - Uses the built-in Iris dataset (fisheriris)
+  - Linear SVM with cross-validation
+  - Prints cross-validation accuracy
+- Run in MATLAB: Open the .m file and press Run
 
-⚙️ Features
-
-- Data loading from Excel file
-- Random train/test split (70/30)
-- 10-fold cross-validation
-- SVM with RBF kernel
-- Accuracy evaluation
-
----
-
-📂 Project Structure
-
-SVM-Classification-Project/
-│
-├── data/          # Dataset
-├── src/           # MATLAB code
-├── results/       # Outputs
-└── README.md
-
----
-
-▶️ How to Run
-
-1. Open MATLAB
-2. Go to "src" folder
-3. Run:
-
-svm_model
-
----
-
-📊 Results
-
-- Average Accuracy: (replace with your result)
-- Cross-validation: 10-fold
-
----
-
-🧠 Model Details
-
-- Algorithm: Support Vector Machine (SVM)
-- Kernel: RBF
-- BoxConstraint: 1
-- KernelScale: auto
-
----
-
-🚀 Future Improvements
-
-- Add confusion matrix
-- Hyperparameter tuning
-- Convert to Python (scikit-learn)
+## Python Version
+- Files: svm.python, svm.phyton.2
+- Features:
+  - Uses scikit-learn
+  - Linear SVM with train-test split
+  - Prints model accuracy
+- Run in Python:
+```bash
+pip install scikit-learn
+python svm.python
