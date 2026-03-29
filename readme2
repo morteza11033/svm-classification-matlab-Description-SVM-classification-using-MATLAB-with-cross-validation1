@@ -1,0 +1,12 @@
+# SVM Iris Classifier
+
+This project implements an SVM model for the Iris dataset.
+
+## Files
+- main.py : main execution file
+- config.py : configuration file
+- README.md : project description
+
+## Installation
+```bash
+pip install scikit-learn
